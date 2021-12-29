@@ -1,0 +1,70 @@
+body {
+  margin-top: 30px;
+  background-color: #5b8a80;
+}
+
+#geneldiv {
+  margin: 0 auto;
+  width: 1060px;
+}
+
+#uygulamabaslik {
+  font-size: 30px;
+  text-align: center;
+  margin-bottom: 15px;
+  color: #fff;
+}
+.gorev-liste {
+  width: 250px;
+  float: left;
+  margin: 0 5px;
+  background-color: #e3e3e3;
+  min-height: 240px;
+  padding-bottom: 15px;
+}
+
+.gorev-liste input,
+.gorev-liste textarea {
+  width: 240px;
+  margin: 1px 5px;
+}
+
+.gorev-liste input {
+  height: 30px;
+}
+.uygulama-gorev {
+  background-color: #fff;
+  width: 230px;
+  margin: 5px;
+  padding: 5px;
+}
+
+.gorev-liste input[type="button"] {
+  width: 100px;
+  margin: 5px;
+}
+
+.uygulama-gorev > .gorev-baslik {
+  font-weight: bold;
+}
+
+.uygulama-gorev > .gorev-tarih {
+  font-size: small;
+  font-style: italic;
+}
+.uygulama-gorev > .gorev-aciklama {
+  font-size: smaller;
+}
+h3 {
+  text-align: center;
+}
+
+#sil-div {
+  display: none;
+  background-color: #fff;
+  border: 3px dotted #000;
+  margin: 10px;
+  height: 70px;
+  line-height: 75px;
+  text-align: center;
+}
